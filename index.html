@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuakeNow - Sismic Data</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="earthquake.ico" type="image/x-icon">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Earthquake List</h1>
+
+        <div class="filters-container">
+            <button class="magnitude">MAGNITUDE</button>
+            <button class="clear-filters">CLEAR FILTERS</button>
+        </div>
+
+        <div class="loader"></div>
+
+        <div class="earthquake-list">
+        </div>
+
+        <div class="notification"></div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
